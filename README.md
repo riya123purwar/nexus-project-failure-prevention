@@ -45,7 +45,5 @@ The test data has known synthetic outcomes. No accuracy, productivity gain or re
 ## Submission links
 
 - Public GitHub repository: **https://github.com/riya123purwar/nexus-project-failure-prevention**
-- Demo video: **[add URL after recording]**
-- Deployed product: **[add Cloud Run URL after deployment]**
 
 The technical documentation and deployment guidance are included in this repository.
