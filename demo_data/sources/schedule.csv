@@ -1,0 +1,13 @@
+activity_id,activity,duration_days,predecessors,evidence_id
+design_freeze,Design freeze,10,,ev-sched-battery
+supplier_release,Supplier pack release,15,design_freeze,ev-supplier-date
+battery_arrival,Battery arrival,5,supplier_release,ev-supplier-date
+battery_test,Battery pack testing,10,battery_arrival,ev-sched-battery
+thermal_prep,Prepare cooling-loop rig,14,design_freeze,ev-minutes-capacity
+thermal_validation,Thermal validation,12,battery_test|thermal_prep,ev-req-thermal
+software_validation,Controller software validation,18,design_freeze,ev-sched-software
+vehicle_integration,Vehicle integration,14,thermal_validation|software_validation,ev-req-thermal
+prototype_build,Integrated prototype build,10,vehicle_integration,ev-sched-battery
+safety_validation,Safety validation,14,prototype_build,ev-req-thermal
+final_vehicle_test,Final vehicle testing,14,safety_validation,ev-req-test
+release_readiness,Release readiness review,7,final_vehicle_test,ev-sched-battery

@@ -1,0 +1,9 @@
+flowchart LR
+  User[User / Firebase Auth] --> UI[Responsive NEXUS web UI]
+  UI -->|HTTPS JSON + source upload| Run[Cloud Run · FastAPI]
+  Run -->|verify ID token| Auth[Firebase Authentication]
+  Run -->|project-scoped records| FS[(Firestore)]
+  Run -->|structured extraction when configured| Gemini[Vertex AI · Gemini]
+  Run --> Engine[Deterministic dependency + CPM engine]
+  Engine --> Run
+  Run --> UI

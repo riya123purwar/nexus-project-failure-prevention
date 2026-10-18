@@ -1,0 +1,11 @@
+AETHER EV PLATFORM REQUIREMENTS — SYNTHETIC EXCERPTS
+Revision 1.2 | For NEXUS prototype demonstration only
+
+§3.4 Charging performance
+The platform shall support 10–80% charge in 30 minutes under the defined test profile.
+
+§4.2 Battery thermal limits
+Battery thermal validation must complete before vehicle integration begins.
+
+§7.1 Verification schedule
+Final vehicle testing is planned to start in project week 14. The test readiness gate must be confirmed before schedule approval.

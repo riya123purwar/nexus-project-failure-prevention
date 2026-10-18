@@ -1,0 +1,6 @@
+SYSTEMS REVIEW DECISIONS — 12 FEB 2026
+Synthetic meeting excerpt | For NEXUS prototype demonstration only
+
+00:18:42 — The team proposes starting final vehicle testing in week 12 to protect the release date; component readiness remains an open gate.
+
+00:31:09 — Thermal bench capacity may be available after the cooling-loop rig closes, but the lab owner has not confirmed the slot.

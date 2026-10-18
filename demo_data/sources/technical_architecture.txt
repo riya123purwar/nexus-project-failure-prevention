@@ -1,0 +1,8 @@
+AETHER EV TECHNICAL ARCHITECTURE — SYNTHETIC EXCERPTS
+Revision 0.9 | For NEXUS prototype demonstration only
+
+§2.1 Battery controls
+The battery management system exchanges pack limits with the vehicle controller over CAN.
+
+§3.2 Pack interfaces
+The 82 kWh pack feeds the BMS and liquid thermal loop; pack interface release is required for integration.
